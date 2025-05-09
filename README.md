@@ -1,23 +1,5 @@
 # Stock-Prediction-Project
-                                          TITLE
-                              STOCK PRICE PREDICTIONS      
-                                                        By 
-                                                    Group 1
-                                        Rishav Singla(102483052)
-                                         Khushi Yadav(102483036)
-                                         Aarzu Sharma(102483004)
-                                                    
-                                                       2C75
-                                                Submitted to:
-                                                 Ashish Bajaj
-                                                  
-
-
-
-
-
-
-
+                                         
                                          ABSTRACT
 Stock price prediction is a critical component of financial analysis and algorithmic trading, enabling investors and institutions to make informed decisions. This project explores the application of machine learning techniques, specifically Long Short-Term Memory (LSTM) neural networks, for predicting future stock prices based on historical data. The system is built using Python and Streamlit for interactive visualization and utilizes data from Yahoo Finance. Key indicators such as Relative Strength Index (RSI), Simple Moving Average (SMA), and trading volume are incorporated as features to improve prediction accuracy.
 The model is trained using past closing prices and technical indicators, and evaluated using Mean Squared Error (MSE) as a performance metric. Graphs of actual vs predicted prices, loss curves, and future forecasts are presented to aid in analysis. This solution demonstrates how deep learning can effectively model sequential financial data and provides a foundation for building more complex decision-making systems in quantitative finance.
