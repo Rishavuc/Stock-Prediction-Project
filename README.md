@@ -17,7 +17,7 @@ Problem Statements
 •	The lack of user-friendly, open-source applications that combine modern machine learning techniques with up-to-date financial data creates a barrier for students and researchers who wish to explore stock market forecasting.
 •	There is a clear need for an educational and practical project that not only performs future stock price predictions but also demonstrates data acquisition, preprocessing, model training, and prediction logic in an understandable and interactive way.
 •	Furthermore, current basic prediction models do not include strategies such as swing trading logic or stock-specific analytics, which are essential for making more informed investment decisions.
-Technologies Used
+Technologies Used:
 1. Programming Language: Python
 Why Python? Python is chosen due to its ease of use, extensive libraries, and frameworks for machine learning, data manipulation, and web development. It allows for rapid development and has robust community support.
 Libraries and Frameworks Used:
@@ -64,6 +64,7 @@ Streamlit App:
 •	The app allows users to input a stock ticker (e.g., "AAPL" for Apple), select a time period for prediction, and view the stock price trends and predictions.
 •	Users can interact with real-time predictions and see the model’s output immediately after entering the stock symbol.
 Example:
+
  
 System Architecture
 The architecture of the stock price prediction app can be broken down into several key components:
@@ -73,6 +74,10 @@ The architecture of the stock price prediction app can be broken down into sever
 4.	Prediction: The trained LSTM model is used to predict future stock prices.
 5.	Streamlit Web Interface: An interactive user interface is built using Streamlit to allow users to enter stock ticker symbols, select date ranges, and visualize the predictions.
 6.	Real-Time Prediction: The model predicts stock prices based on the user’s input, and results are displayed graphically.
+
+
+
+
 
 Flowchart
 [Start]
@@ -96,6 +101,10 @@ Flowchart
 |-------> [Visualize Predicted and Actual Stock Prices]
 |
 [End]
+
+
+
+
 Performance Evaluation
 The performance of the stock price prediction model using Long Short-Term Memory (LSTM) is evaluated using two key metrics: Mean Squared Error (MSE) and R-squared (R²). These metrics provide insight into how well the model is predicting the stock prices and its ability to capture the underlying patterns in the data.
 •	Mean Squared Error (MSE): MSE quantifies the average squared difference between the predicted and actual stock prices. A lower MSE indicates that the model's predictions are closer to the actual values, which implies better performance. In this project, the model's MSE was calculated for the test dataset, and the result indicates that the model performs reasonably well in terms of minimizing prediction errors.
